@@ -1,0 +1,89 @@
+aid: lendio
+name: Lendio
+description: >-
+  Lendio is a small business lending marketplace that connects businesses with
+  funding through a network of 75+ lenders. The platform offers a REST API for
+  submitting loan applications, checking eligibility, connecting businesses with
+  lenders, and managing loan products. Lendio provides Embedded Financing for
+  service providers to integrate loan marketplace functionality, Intelligent
+  Lending software for banks and lenders, and a Loan Performance Tracking API
+  for high-volume lenders submitting bulk data records.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/lendio/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Lending
+  - Small Business
+  - Loans
+  - Fintech
+  - Marketplace
+  - Embedded Finance
+apis:
+  - aid: lendio:lendio-loan-marketplace-api
+    name: Lendio Loan Marketplace API
+    description: >-
+      REST API for connecting small businesses with lenders. Supports loan
+      application submission, eligibility checking, lender matching, and loan
+      product management. The Embedded Financing API allows service providers
+      to integrate the Lendio marketplace with a single JavaScript snippet and
+      authentication API endpoint for secure customer data sharing.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.lendio.com/embedded-financing
+    baseURL: https://api.lendio.com
+    tags:
+      - Lending
+      - Loans
+      - Small Business
+      - Marketplace
+      - Embedded Finance
+    properties:
+      - type: Documentation
+        url: https://www.lendio.com/embedded-financing
+      - type: ProductUpdates
+        url: https://www.lendio.com/product-updates
+  - aid: lendio:lendio-loan-performance-tracking-api
+    name: Lendio Loan Performance Tracking API
+    description: >-
+      API integration for high-volume lenders that allows bulk submission of
+      loan performance data. Supports up to 10,000 records per submission
+      through custom code requests. Provides transaction analytics by ingesting
+      data directly from core systems via API or batched data import.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.lendio.com/product-updates/loan-performance-tracking
+    baseURL: https://api.lendio.com
+    tags:
+      - Lending
+      - Loan Performance
+      - Analytics
+      - Bulk Data
+    properties:
+      - type: Documentation
+        url: https://www.lendio.com/product-updates/loan-performance-tracking
+common:
+  - type: Website
+    url: https://www.lendio.com
+  - type: Documentation
+    url: https://www.lendio.com/embedded-financing
+  - type: GitHubOrg
+    url: https://github.com/LendioDevs
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/lendio
+  - type: Blog
+    url: https://www.lendio.com/blog
+  - type: Pricing
+    url: https://www.lendio.com/embedded-financing
+  - type: StatusPage
+    url: https://www.lendio.com/security
+  - type: X
+    url: https://x.com/lendio
+  - type: Plans
+    url: plans/lendio-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/lendio-rate-limits.yml
+  - type: FinOps
+    url: finops/lendio-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

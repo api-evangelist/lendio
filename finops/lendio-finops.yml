@@ -1,0 +1,55 @@
+name: Lendio FinOps
+description: >-
+  Lendio's financial operations model is based on a marketplace intermediary
+  structure. For borrowers, the service is free. Lendio generates revenue
+  through referral fees and commissions from lenders when loan applications
+  result in funded deals. B2B API products (Embedded Financing, Intelligent
+  Lending) are priced on a custom contract basis. There are no publicly listed
+  API usage fees, subscription tiers, or per-call pricing.
+url: https://www.lendio.com
+created: '2026-06-13'
+modified: '2026-06-13'
+costModel:
+  type: Marketplace Commission / Custom B2B Contract
+  description: >-
+    Lendio uses a marketplace commission model where lenders pay referral fees
+    when a matched loan is funded. B2B API integrations (Embedded Financing,
+    Intelligent Lending) are contracted directly with enterprise customers at
+    negotiated pricing. No public per-API-call or metered billing is offered.
+billing:
+  frequency: Not publicly specified (B2B contracts typically annual)
+  paymentMethods:
+    - Direct contract (B2B)
+  invoicing: Enterprise contract billing
+costOptimization:
+  - strategy: Marketplace Model (Borrower)
+    description: >-
+      Borrowers pay nothing to use the Lendio marketplace. All costs are
+      absorbed by lender partners through referral commission structures.
+  - strategy: Embedded Financing Revenue Share
+    description: >-
+      Partners embedding the Lendio marketplace may participate in a
+      revenue-sharing arrangement. Contact Lendio's team for specifics
+      on commission and revenue share structures.
+  - strategy: Bulk Data Submission
+    description: >-
+      The Loan Performance Tracking API supports up to 10,000 records per
+      submission, enabling cost-efficient bulk data operations rather than
+      individual record API calls.
+estimatedCosts:
+  borrowerApplication:
+    cost: $0
+    notes: Free to apply; no hidden fees for small business borrowers
+  embeddedFinancing:
+    cost: Custom pricing
+    notes: >-
+      Negotiated B2B contract; contact Lendio sales for pricing. Includes
+      dedicated implementation and account management support.
+  intelligentLending:
+    cost: Custom pricing
+    notes: >-
+      Enterprise SaaS pricing; negotiated based on loan volume, features,
+      and integration complexity. Includes API data ingestion and analytics.
+contacts:
+  sales: https://www.lendio.com/contact
+  support: https://support.lendio.com

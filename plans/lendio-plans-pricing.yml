@@ -1,0 +1,62 @@
+name: Lendio Plans and Pricing
+description: >-
+  Lendio operates a marketplace model where loan applications for small
+  businesses are free. Revenue is generated through lender partnerships and
+  referral arrangements. For B2B products (Embedded Financing and Intelligent
+  Lending), pricing is negotiated directly with Lendio's sales team and is not
+  publicly listed. Implementation timelines range from 3 to 12 weeks depending
+  on requirements.
+url: https://www.lendio.com/embedded-financing
+created: '2026-06-13'
+modified: '2026-06-13'
+plans:
+  - name: Marketplace (Borrower)
+    description: >-
+      Free for small business borrowers. Submit one application and receive
+      funding offers from 75+ lenders. No application fees, no hidden costs,
+      and no impact on personal credit score from the initial inquiry.
+    url: https://www.lendio.com/
+    price: Free
+    rateLimits: []
+    features:
+      - Single application to multiple lenders
+      - Access to 75+ lenders in network
+      - Loan amounts from $1K to $1M+
+      - Funding in as little as 24 hours
+      - AI-driven lender matching
+      - No personal credit score impact from application
+  - name: Embedded Financing (Partner)
+    description: >-
+      For service providers and platforms wanting to embed Lendio's loan
+      marketplace within their ecosystem. Deployed via a single line of
+      JavaScript with an authentication API endpoint for secure data sharing.
+      Pricing is custom and negotiated with Lendio's team.
+    url: https://www.lendio.com/embedded-financing
+    price: Custom (contact sales)
+    rateLimits: []
+    features:
+      - Single-line JavaScript integration
+      - Authentication API endpoint for customer data pre-fill
+      - CNAME DNS configuration for branded experience
+      - White-label UI with customizable fonts, colors, graphics
+      - Dedicated account manager and engineering support
+      - Quarterly optimization reviews
+      - Analytics and performance partner portal
+      - Implementation in 3-12 weeks
+  - name: Intelligent Lending (Banks and Lenders)
+    description: >-
+      SaaS platform for banks and lenders featuring digital borrower experience,
+      loan processing automation, and credit policy automation. Includes
+      transaction analytics via API integration or batch data import. Pricing is
+      custom and negotiated with Lendio's sales team.
+    url: https://www.lendio.com/intelligent-lending
+    price: Custom (contact sales)
+    rateLimits: []
+    features:
+      - Digital borrower application
+      - Loan processing automation
+      - Credit policy automation
+      - Transaction data analytics (API or batch import)
+      - Finicity or OCR integration for financial data collection
+      - LOS integration support
+      - Loan Performance Tracking API (up to 10,000 records per submission)

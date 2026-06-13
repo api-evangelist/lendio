@@ -1,0 +1,44 @@
+name: Lendio Rate Limits
+description: >-
+  Lendio does not publicly document specific rate limits for its APIs.
+  The Loan Performance Tracking API supports bulk submission of up to 10,000
+  records per request. For Embedded Financing and Intelligent Lending API
+  integrations, rate limits are established during the implementation process
+  with a dedicated Customer Success Manager. Contact Lendio directly for
+  specific rate limit details applicable to your integration.
+url: https://www.lendio.com/product-updates/loan-performance-tracking
+created: '2026-06-13'
+modified: '2026-06-13'
+rateLimits:
+  - name: Loan Performance Tracking API - Bulk Submission
+    description: >-
+      Maximum number of records that can be submitted in a single bulk
+      data request to the Loan Performance Tracking API.
+    limit: 10000
+    unit: records per request
+    scope: Loan Performance Tracking API
+    notes: >-
+      Requires a custom code request submission to activate. Full documentation
+      provided upon setup by a dedicated Customer Success Manager.
+  - name: Embedded Financing API
+    description: >-
+      Rate limits for the Embedded Financing authentication API endpoint and
+      marketplace integration are not publicly documented. Limits are established
+      during the 3-12 week implementation process.
+    limit: Not publicly specified
+    unit: N/A
+    scope: Embedded Financing API
+    notes: >-
+      Contact Lendio's sales team or your dedicated Customer Success Manager
+      for rate limit details applicable to your embedded integration.
+  - name: Intelligent Lending API
+    description: >-
+      Rate limits for data ingestion via API in the Intelligent Lending
+      platform are not publicly documented. Limits depend on integration
+      type (real-time API vs. batched data import).
+    limit: Not publicly specified
+    unit: N/A
+    scope: Intelligent Lending API
+    notes: >-
+      Supports both real-time API connections and batched data imports.
+      Rate limits are negotiated as part of the platform contract.

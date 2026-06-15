@@ -1,6 +1,6 @@
 {
   "url": "https://www.lendio.com/blog",
-  "fetched": "2026-06-13",
+  "fetched": "2026-06-14T20:42:17Z",
   "posts": [
     {
       "url": "https://www.lendio.com/blog/what-is-an-sba-loan/",
@@ -62,5 +62,16 @@
       "title": "Business Line Of Credit Vs Credit Card",
       "slug": "business-line-of-credit-vs-credit-card"
     }
-  ]
+  ],
+  "repo": "lendio",
+  "feeds": [
+    {
+      "source": "https://www.linkedin.com/company/lendio",
+      "feed_url": "https://www.linkedin.com/company/lendio",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0
 }

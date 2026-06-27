@@ -41,7 +41,7 @@ apis:
     properties:
       - type: Documentation
         url: https://www.lendio.com/embedded-financing
-      - type: ProductUpdates
+      - type: ReleaseNotes
         url: https://www.lendio.com/product-updates
   - aid: lendio:lendio-loan-performance-tracking-api
     name: Lendio Loan Performance Tracking API

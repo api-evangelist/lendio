@@ -62,6 +62,8 @@ apis:
       - type: Documentation
         url: https://www.lendio.com/product-updates/loan-performance-tracking
 common:
+  - type: DomainSecurity
+    url: security/lendio-domain-security.yml
   - type: Website
     url: https://www.lendio.com
   - type: Documentation

@@ -8,7 +8,19 @@ description: >-
   service providers to integrate loan marketplace functionality, Intelligent
   Lending software for banks and lenders, and a Loan Performance Tracking API
   for high-volume lenders submitting bulk data records.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: free
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Free · Requires approval
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lendio.png
 url: https://raw.githubusercontent.com/api-evangelist/lendio/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'

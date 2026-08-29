@@ -8,6 +8,17 @@ description: >-
   service providers to integrate loan marketplace functionality, Intelligent
   Lending software for banks and lenders, and a Loan Performance Tracking API
   for high-volume lenders submitting bulk data records.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: free
   onboarding: approval

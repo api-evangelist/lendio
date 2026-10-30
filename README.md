@@ -64,44 +64,106 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Lendio is a small business lending marketplace founded in 2011 that connects businesses with funding through a network of 75+ lenders. The platform has facilitated over $17B in SMB funding for 520,000+ small businesses. Lendio offers three core product lines: a direct marketplace for small business borrowers, Embedded Financing for service providers, and Intelligent Lending software for banks and lenders.
+Lendio is a small business lending marketplace that connects businesses with funding through a network of 75+ lenders. The platform offers a REST API for submitting loan applications, checking eligibility, connecting businesses with lenders, and managing loan products. Lendio provides Embedded Financing for service providers to integrate loan marketplace functionality, Intelligent Lending software for banks and lenders, and a Loan Performance Tracking API for high-volume lenders submitting bulk data records.
 
-## APIs
+**Areas:** Lending · Small Business · Loans · Fintech · Marketplace · Embedded Finance
 
-### Loan Marketplace API (Embedded Financing)
+## Lendio on APIs.io
 
-Lendio provides an API-first embedded financing platform that allows service providers to integrate the full Lendio loan marketplace within their ecosystem. The integration uses a single JavaScript snippet plus an authentication API endpoint for secure customer data sharing and application pre-fill. Partners also configure a CNAME DNS record pointing to Lendio's production servers.
+Everything profiled for Lendio is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lendio/](https://apis.io/providers/lendio/)** — or go straight to one of the APIs or properties below.
 
-- **Integration**: Single-line JavaScript widget + authentication API endpoint
-- **Auth**: Token-based secure customer data transfer
-- **Implementation**: 3-12 weeks with dedicated engineering support
-- **Customization**: White-label UI with configurable fonts, colors, and branding
+### APIs (2)
 
-### Loan Performance Tracking API
+- [Lendio Loan Marketplace API](https://apis.io/apis/lendio/lendio-loan-marketplace-api/) — REST API for connecting small businesses with lenders. Supports loan application submission, eligibility checking, lender matching, and loan product…
+- [Lendio Loan Performance Tracking API](https://apis.io/apis/lendio/lendio-loan-performance-tracking-api/) — API integration for high-volume lenders that allows bulk submission of loan performance data. Supports up to 10,000 records per submission through custom…
 
-Available for high-volume lenders integrated with the Intelligent Lending platform. Supports bulk submission of up to 10,000 records per request for loan performance data. Access is enabled through a custom code request process managed by a dedicated Customer Success Manager.
+### Published properties
 
-### Intelligent Lending Data API
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-Supports transaction data ingestion via real-time API connection or batched data import for credit decisioning analytics. Integrates with existing Loan Origination Systems (LOS) and third-party data providers including Finicity.
+#### Security (1)
 
-## Resources
+Authentication, trust centre, and vulnerability disclosure.
 
-- **Website**: https://www.lendio.com
-- **Blog**: https://www.lendio.com/blog
-- **Embedded Financing**: https://www.lendio.com/embedded-financing
-- **Intelligent Lending**: https://www.lendio.com/intelligent-lending
-- **Product Updates**: https://www.lendio.com/product-updates
-- **Security**: https://www.lendio.com/security
-- **GitHub**: https://github.com/LendioDevs
-- **LinkedIn**: https://www.linkedin.com/company/lendio
-- **X**: https://x.com/lendio
-- **Support**: https://support.lendio.com
-- **Contact**: https://www.lendio.com/contact
+- [Lendio Domain Security](https://apis.io/security/lendio/lendio-domain-security/)
 
-## Catalog Files
+#### Plans and pricing (1)
 
-- `apis.yml` - APIs.json 0.19 provider profile
-- `plans/lendio-plans-pricing.yml` - Pricing plans and tiers
-- `rate-limits/lendio-rate-limits.yml` - API rate limit documentation
-- `finops/lendio-finops.yml` - Financial operations and cost model
+Published plans, tiers and prices.
+
+- [Lendio Plans Pricing](https://apis.io/plans/lendio/lendio-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Lendio Rate Limits](https://apis.io/rate-limits/lendio/lendio-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Lendio Finops](https://apis.io/finops/lendio/lendio-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.lendio.com)
+- [Documentation](https://www.lendio.com/embedded-financing)
+- [Pricing](https://www.lendio.com/embedded-financing)
+- [Blog](https://www.lendio.com/blog)
+- [Status](https://www.lendio.com/security)
+
+## API Evangelist rating
+
+**Kin Score 16.8** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 42.1 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 18.4 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lendio/](https://apis.io/providers/lendio/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lendio: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lendio/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
